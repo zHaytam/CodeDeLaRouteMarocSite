@@ -33,7 +33,16 @@
     align-items: center;
 }
 
-.sign figure {
-    margin: 0 !important;
-    margin-right: 1em !important;
+    .sign figure {
+        margin: 0 !important;
+        margin-right: 1em !important;
+    }
+
+.media.centered {
+    align-items: center;
+    justify-content: center;
 }
+
+    .media.centered > .media-content {
+        flex-grow: unset;
+    }
